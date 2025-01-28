@@ -16,7 +16,7 @@ public class TransformController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(30, 30, 0) * Time.deltaTime);
+        transform.Rotate(new Vector3(0, 60, 0) * Time.deltaTime);
         
     }
 }
