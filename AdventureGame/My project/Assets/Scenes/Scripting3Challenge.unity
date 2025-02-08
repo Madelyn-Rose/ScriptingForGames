@@ -502,6 +502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1069139237}
   - component: {fileID: 1069139238}
+  - component: {fileID: 1069139239}
   m_Layer: 0
   m_Name: Idle
   m_TagString: Untagged
@@ -576,6 +577,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1069139239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069139236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81931f4e95e494a5bb48eb78d744054a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key1: 275
+  key2: 276
+  direction1: 0
+  direction2: 180
 --- !u!1 &1347190934
 GameObject:
   m_ObjectHideFlags: 0
