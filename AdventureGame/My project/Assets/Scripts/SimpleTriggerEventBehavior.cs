@@ -11,5 +11,6 @@ public class SimpleTriggerEventBehavior : MonoBehaviour
     {
         triggerEvent.Invoke();
         Debug.Log("Player interacted with the object!");
+        
     }
 }
