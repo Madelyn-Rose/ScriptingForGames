@@ -6,11 +6,11 @@ using UnityEngine.Events;
 public class SimpleTriggerEventBehavior : MonoBehaviour
 {
     // Start is called before the first frame update
-   public UnityEvent triggerEvent;
+    public UnityEvent triggerEvent;
     private void OnTriggerEnter(Collider other)
     {
         triggerEvent.Invoke();
-        Debug.Log("Player interacted with the object!");
+        Debug.Log("Player interacted with the Slime!!");
         
     }
 }
