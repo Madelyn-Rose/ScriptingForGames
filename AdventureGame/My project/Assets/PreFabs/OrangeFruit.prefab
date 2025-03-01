@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4927519843041907626
+--- !u!1 &619816115688897279
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7048426442988480720}
-  - component: {fileID: 2554416784424662415}
-  - component: {fileID: 8791572317581843721}
-  - component: {fileID: 6175379632654257466}
-  - component: {fileID: 2327034596285882148}
+  - component: {fileID: 1126910079432636786}
+  - component: {fileID: 8834606203402304294}
+  - component: {fileID: 6324421116992639196}
+  - component: {fileID: 4970224446803067903}
+  - component: {fileID: 8991153078931657954}
   m_Layer: 0
-  m_Name: Idle-Run (44x30)_0
+  m_Name: OrangeFruit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7048426442988480720
+--- !u!4 &1126910079432636786
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4927519843041907626}
+  m_GameObject: {fileID: 619816115688897279}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 63.6059, y: 26.9963, z: 0}
-  m_LocalScale: {x: 4.160143, y: 4.2043266, z: 1}
+  m_LocalPosition: {x: 53.539024, y: 27.853844, z: 0}
+  m_LocalScale: {x: 8.708285, y: 8.708285, z: 8.708285}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2554416784424662415
+--- !u!212 &8834606203402304294
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4927519843041907626}
+  m_GameObject: {fileID: 619816115688897279}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -76,28 +76,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4320010084133899996, guid: 52d40d1d463a123498d838dd108b712a, type: 3}
+  m_Sprite: {fileID: 4121880872312635667, guid: ffc9f271fad56c243a45f100b9dc6778, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.44, y: 0.3}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &8791572317581843721
+--- !u!95 &6324421116992639196
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4927519843041907626}
+  m_GameObject: {fileID: 619816115688897279}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7f4e581b4ee4d4ae394bfacc8fccec30, type: 2}
+  m_Controller: {fileID: 9100000, guid: fa08e0871e1c0486ba79580926c4a2f5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -108,13 +108,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!65 &6175379632654257466
+--- !u!65 &4970224446803067903
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4927519843041907626}
+  m_GameObject: {fileID: 619816115688897279}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -127,15 +127,15 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.39873764, y: 0.27646232, z: 0.46754906}
-  m_Center: {x: 0.0041263048, y: -0.011768891, z: 0.1337745}
---- !u!114 &2327034596285882148
+  m_Size: {x: 0.19227013, y: 0.16537976, z: 0.20000003}
+  m_Center: {x: 0.010083779, y: -0.0033614056, z: 0}
+--- !u!114 &8991153078931657954
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4927519843041907626}
+  m_GameObject: {fileID: 619816115688897279}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0624581855a1c4d7a91ad24d89345ac7, type: 3}
@@ -145,27 +145,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: HitTrigger
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: HealthContainerScript, Assembly-CSharp
-        m_MethodName: ReduceHealth
+        m_TargetAssemblyTypeName: HungerContainerScript, Assembly-CSharp
+        m_MethodName: ReduceHunger
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -0.2
-          m_StringArgument: HitTrigger
+          m_FloatArgument: -0.1
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 0}
@@ -176,7 +164,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -0.1
-          m_StringArgument: HitTrigger
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
