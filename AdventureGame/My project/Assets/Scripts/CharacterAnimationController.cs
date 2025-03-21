@@ -19,7 +19,7 @@ public class CharacterAnimationController : MonoBehaviour
 
     private void HandleAnimations()
     {
-        //Handles doube jumping
+        //Handles double jumping
         if (Input.GetButtonDown("Jump"))
         {
             animator.SetTrigger("JumpTrigger");
@@ -43,6 +43,23 @@ public class CharacterAnimationController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             animator.SetTrigger("FallTrigger");
+        }
+        else
+        {
+            animator.SetTrigger("IdleTrigger");
+        }
+        //Run Animation
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            animator.SetTrigger("RunTrigger");
+        }
+        else
+        {
+            animator.SetTrigger("IdleTrigger");
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            animator.SetTrigger("RunTrigger");
         }
         else
         {

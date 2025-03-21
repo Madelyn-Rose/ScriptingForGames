@@ -15,10 +15,12 @@ public class SimpleImageBehavior : MonoBehaviour
     public SimpleFloatData dataObj;
     public SimpleIntData scoreBonus;
     public UnityEvent triggerEvent;
+    public AudioSource audioSource;
 
     private void Start()
     {
         imageObj = GetComponent<Image>();
+        audioSource = GetComponent<AudioSource>();
     }
     private void Update()
     {
@@ -36,6 +38,7 @@ public class SimpleImageBehavior : MonoBehaviour
             triggerEvent.Invoke();
             dataObj.value = 0f;
             Debug.Log("full orange");
+            audioSource.Play();
         }
     }
 }
