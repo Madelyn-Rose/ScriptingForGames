@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8991153078931657954}
   - component: {fileID: 8183752769702156138}
   - component: {fileID: 5737087681812473098}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OrangeFruit
   m_TagString: Collectible
   m_Icon: {fileID: 0}
