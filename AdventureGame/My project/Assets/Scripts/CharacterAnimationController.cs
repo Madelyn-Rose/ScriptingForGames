@@ -57,7 +57,7 @@ public class CharacterAnimationController : MonoBehaviour
         {
             animator.SetTrigger("IdleTrigger");
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             animator.SetTrigger("RunTrigger");
         }
