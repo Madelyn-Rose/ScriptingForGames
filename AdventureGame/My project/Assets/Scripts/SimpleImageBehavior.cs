@@ -37,7 +37,6 @@ public class SimpleImageBehavior : MonoBehaviour
         {
             triggerEvent.Invoke();
             dataObj.value = 0f;
-            Debug.Log("full orange");
             audioSource.Play();
         }
     }

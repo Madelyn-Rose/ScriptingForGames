@@ -26,7 +26,7 @@ public class SimpleCharacterController : MonoBehaviour
         MoveCharacter();
         ApplyGravity();
         KeepCharacterOnXAxis();
-        if (Input.GetButtonDown("Jump") && controller.isGrounded)
+        if (Input.GetButtonDown("Jump")) //&& controller.isGrounded) Add if jump needs to be grounded
         {
             velocity.y = Mathf.Sqrt(jumpForce * -2f * gravity);
         }

@@ -15,6 +15,6 @@ public class Destroy : MonoBehaviour
     public void Destroyer(GameObject gameObject)
     {
         Destroy(myCollider);
-        Object.Destroy(gameObject ,2f);
+        Object.Destroy(gameObject ,1f);
     }
 }

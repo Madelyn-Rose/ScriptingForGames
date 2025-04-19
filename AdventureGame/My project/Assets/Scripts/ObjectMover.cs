@@ -14,7 +14,8 @@ public class ObjectMover : MonoBehaviour
     // Move the object back and forth on the x axis
     void Update()
     {
-       float x = Mathf.PingPong(Time.time * speed, length:distance);
-       transform.position = new Vector3(x, transform.position.y, transform.position.z); 
+       float y = Mathf.PingPong(Time.time * speed, length:distance);
+       transform.position = new Vector3(transform.position.x, y, transform.position.z); 
+       //Reversed x and y transform position
     }
 }
