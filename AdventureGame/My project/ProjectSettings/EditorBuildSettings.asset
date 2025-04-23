@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/StartScene.unity
+    guid: 8b8f77a80158743d98e09a5d377e2fb3
+  - enabled: 1
+    path: Assets/Scenes/Scripting3Challenge.unity
+    guid: bcbe54b0cf847497f8dc01434fc610e7
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: f71e3f96391ee4811b4a9312791b92b1
   m_configObjects: {}
