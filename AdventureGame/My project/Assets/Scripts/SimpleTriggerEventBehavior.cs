@@ -9,7 +9,10 @@ public class SimpleTriggerEventBehavior : MonoBehaviour
     public UnityEvent triggerEvent;
     private void OnTriggerEnter(Collider other)
     {
-        triggerEvent.Invoke();
+        if (other.gameObject.tag == "Player") //Checks for player
+        {
+            triggerEvent.Invoke();
+        }
         
     }
 }
